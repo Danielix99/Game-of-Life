@@ -1,4 +1,4 @@
-# Game-of-Life
+# Game of Life
 Conway's Game of Life in pure JS  
 The game have a draggable Control Panel with reset, start and stop button.  
   
