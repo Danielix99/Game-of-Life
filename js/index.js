@@ -115,8 +115,8 @@
 			},
 			getCell: function(x,y){
 				var rightCell = false;
-				 this.Cells.forEach(function(c){
-					if( c.x == x && c.y == y){rightCell = c;}		
+				 this.Cells.some(function(c){
+					if( c.x == x && c.y == y){rightCell = c; return true;}		
 				});
 				return rightCell;
 			},
